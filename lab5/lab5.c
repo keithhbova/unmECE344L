@@ -82,7 +82,7 @@ char performShitfTransformationOnCapitalLetters(const char asciiCharToConvert)
 		shiftContainer = 26 + shiftContainer;
 	}
 	
-	if(shiftContainer > 26)
+	if(shiftContainer > 25)
 	{
 		shiftContainer = shiftContainer - 26;
 	}
@@ -101,7 +101,7 @@ char performShitfTransformationOnLowercaseLetters(const char asciiCharToConvert)
 		shiftContainer = 26 + shiftContainer;
 	}
 	
-	if(shiftContainer > 26)
+	if(shiftContainer > 25)
 	{
 		shiftContainer = shiftContainer - 26;
 	}

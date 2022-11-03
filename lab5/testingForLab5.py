@@ -18,7 +18,7 @@ def performShitfTransformationOnCapitalLetters(asciiCharToShift, shiftNumber = 0
         shiftContainer = 26 + shiftContainer
     
     
-    if(shiftContainer > 26):
+    if(shiftContainer > 25):
         shiftContainer = shiftContainer - 26
     
     return shiftContainer + 65
@@ -32,7 +32,7 @@ def performShitfTransformationOnLowercaseLetters(asciiCharToShift, shiftNumber =
         shiftContainer = 26 + shiftContainer
     
     
-    if(shiftContainer > 26):
+    if(shiftContainer > 25):
         shiftContainer = shiftContainer - 26
     
     return shiftContainer + 97
